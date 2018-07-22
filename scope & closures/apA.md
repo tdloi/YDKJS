@@ -56,3 +56,9 @@ To be clear, JavaScript **does not, in fact, have dynamic scope**. It has lexica
 The key contrast: **lexical scope is write-time, whereas dynamic scope (and `this`!) are runtime**. Lexical scope cares *where a function was declared*, but dynamic scope cares where a function was *called from*.
 
 Finally: `this` cares *how a function was called*, which shows how closely related the `this` mechanism is to the idea of dynamic scoping. To dig more into `this`, read the title "*this & Object Prototypes*".
+
+[Previous](ch5.md)
+
+[Main](../README.md#titles)
+
+[Next](apB.md)

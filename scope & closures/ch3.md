@@ -609,3 +609,9 @@ In ES6, the `let` keyword (a cousin to the `var` keyword) is introduced to allow
 Though some seem to believe so, block scope should not be taken as an outright replacement of `var` function scope. Both functionalities co-exist, and developers can and should use both function-scope and block-scope techniques where respectively appropriate to produce better, more readable/maintainable code.
 
 [^note-leastprivilege]: [Principle of Least Privilege](http://en.wikipedia.org/wiki/Principle_of_least_privilege)
+
+[Previous](ch2.md)
+
+[Main](../README.md#titles)
+
+[Next](ch4.md)

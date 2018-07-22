@@ -219,3 +219,9 @@ What this leads to is that all declarations in a scope, regardless of where they
 Declarations themselves are hoisted, but assignments, even assignments of function expressions, are *not* hoisted.
 
 Be careful about duplicate declarations, especially mixed between normal var declarations and function declarations -- peril awaits if you do!
+
+[Previous](ch3.md)
+
+[Main](../README.md#titles)
+
+[Next](ch5.md)

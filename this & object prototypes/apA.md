@@ -238,3 +238,9 @@ These are the reasons why ES6 `class` is masquerading as a nice solution to synt
 Bottom line: if ES6 `class` makes it harder to robustly leverage `[[Prototype]]`, and hides the most important nature of the JS object mechanism -- **the live delegation links between objects** -- shouldn't we see `class` as creating more troubles than it solves, and just relegate it to an anti-pattern?
 
 I can't really answer that question for you. But I hope this book has fully explored the issue at a deeper level than you've ever gone before, and has given you the information you need *to answer it yourself*.
+
+[Previous](ch6.md)
+
+[Main](../README.md#titles)
+
+[Next](apB.md)

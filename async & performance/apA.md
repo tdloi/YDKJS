@@ -826,3 +826,9 @@ You've now seen the essence and spirit of *asynquence*. The key take away is tha
 If these *asynquence* snippets have made sense to you, you're now pretty well up to speed on the library; it doesn't take that much to learn, actually!
 
 If you're still a little fuzzy on how it works (or why!), you'll want to spend a little more time examining the previous examples and playing around with *asynquence* yourself, before going on to the next appendix. Appendix B will push *asynquence* into several more advanced and powerful async patterns.
+
+[Previous](ch6.md)
+
+[Main](../README.md#titles)
+
+[Next](apB.md)
