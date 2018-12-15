@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>You Don't Know JavaScript</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="You don't know JavaScript">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/docute@4/dist/docute.css">
+  <style>
+    :root {
+      --sidebar-bg: #f5f6fa;
+    }
+    .Sidebar {
+      width: 290px !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="docute"></div>
+  <script src="https://unpkg.com/docute@4/dist/docute.js"></script>
+  <script>
+    new Docute({
+      target: '#docute',
+      centerContent: false,
+      sidebar: [
+        {
+          title: "Up & Going",
+          sourcePath: "/up & going",
+          links: [
+            {
+              title: "Foreword",
+              link: "/up & going/foreword"
+            },
+            {
+              title: "Preface",
+              link: "/up & going/../preface"
+            },
+            {
+              title: "Chapter 1: Into Programming",
+              link: "/up & going/ch1"
+            },
+            {
+              title: "Chapter 2: Into JavaScript",
+              link: "/up & going/ch2"
+            },
+            {
+              title: "Chapter 3: Into YDKJS",
+              link: "/up & going/ch3"
+            },
+            {
+              title: "Appendix A: Thank You's!",
+              link: "/up & going/apA"
+            }
+          ]
+        },
+        {
+          title: "Scope & Closures",
+          links: [
+            {
+              title: "Preface",
+              link: "/scope & closures/../preface"
+            },
+            {
+              title: "Chapter 1: What is Scope?",
+              link: "/scope & closures/ch1"
+            },
+            {
+              title: "Chapter 2: Lexical Scope",
+              link: "/scope & closures/ch2"
+            },
+            {
+              title: "Chapter 3: Function vs. Block Scope",
+              link: "/scope & closures/ch3"
+            },
+            {
+              title: "Chapter 4: Hoisting",
+              link: "/scope & closures/ch4"
+            },
+            {
+              title: "Chapter 5: Scope Closures",
+              link: "/scope & closures/ch5"
+            },
+            {
+              title: "Appendix A: Dynamic Scope",
+              link: "/scope & closures/apA"
+            },
+            {
+              title: "Appendix B: Polyfilling Block Scope",
+              link: "/scope & closures/apB"
+            },
+            {
+              title: "Appendix C: Lexical-this",
+              link: "/scope & closures/apC"
+            },
+            {
+              title: "Appendix D: Thank You's!",
+              link: "/scope & closures/apD"
+            }
+          ]
+        },
+        {
+          title: "*this* & Object Prototypes",
+          links: [
+            {
+              title: "Foreword",
+              link: "/this & object prototypes/foreword"
+            },
+            {
+              title: "Preface",
+              link: "/this & object prototypes/../preface"
+            },
+            {
+              title: "Chapter 1: *this* Or That?",
+              link: "/this & object prototypes/ch1"
+            },
+            {
+              title: "Chapter 2: *this* All Makes Sense Now!",
+              link: "/this & object prototypes/ch2"
+            },
+            {
+              title: "Chapter 3: Objects",
+              link: "/this & object prototypes/ch3"
+            },
+            {
+              title: "Chapter 4: Mixing (Up) \"Class\" Objects",
+              link: "/this & object prototypes/ch4"
+            },
+            {
+              title: "Chapter 5: Prototypes",
+              link: "/this & object prototypes/ch5"
+            },
+            {
+              title: "Chapter 6: Behavior Delegation",
+              link: "/this & object prototypes/ch6"
+            },
+            {
+              title: "Appendix A: ES6 *class*",
+              link: "/this & object prototypes/apA"
+            },
+            {
+              title: "Appendix B: Thank You's!",
+              link: "/this & object prototypes/apB"
+            }
+          ]
+        },
+        {
+          title: "Types & Grammar",
+          links: [
+            {
+              title: "Foreword",
+              link: "/types & grammar/foreword"
+            },
+            {
+              title: "Preface",
+              link: "/types & grammar/../preface"
+            },
+            {
+              title: "Chapter 1: Types",
+              link: "/types & grammar/ch1"
+            },
+            {
+              title: "Chapter 2: Values",
+              link: "/types & grammar/ch2"
+            },
+            {
+              title: "Chapter 3: Natives",
+              link: "/types & grammar/ch3"
+            },
+            {
+              title: "Chapter 4: Coercion",
+              link: "/types & grammar/ch4"
+            },
+            {
+              title: "Chapter 5: Grammar",
+              link: "/types & grammar/ch5"
+            },
+            {
+              title: "Appendix A: Mixed Environment JavaScript",
+              link: "/types & grammar/apA"
+            },
+            {
+              title: "Appendix B: Thank You's!",
+              link: "/types & grammar/apB"
+            }
+          ]
+        },
+        {
+          title: "Async & Performance",
+          links: [
+            {
+              title: "Foreword",
+              link: "/async & performance/foreword"
+            },
+            {
+              title: "Preface",
+              link: "/async & performance/../preface"
+            },
+            {
+              title: "Chapter 1: Asynchrony: Now & Later",
+              link: "/async & performance/ch1"
+            },
+            {
+              title: "Chapter 2: Callbacks",
+              link: "/async & performance/ch2"
+            },
+            {
+              title: "Chapter 3: Promises",
+              link: "/async & performance/ch3"
+            },
+            {
+              title: "Chapter 4: Generators",
+              link: "/async & performance/ch4"
+            },
+            {
+              title: "Chapter 5: Program Performance",
+              link: "/async & performance/ch5"
+            },
+            {
+              title: "Chapter 6: Benchmarking & Tuning",
+              link: "/async & performance/ch6"
+            },
+            {
+              title: "Appendix A: Library: asynquence",
+              link: "/async & performance/apA"
+            },
+            {
+              title: "Appendix B: Advanced Async Patterns",
+              link: "/async & performance/apB"
+            },
+            {
+              title: "Appendix C: Thank You's!",
+              link: "/async & performance/apC"
+            }
+          ]
+        },
+        {
+          title: "ES6 & Beyond",
+          links: [
+            {
+              title: "Foreword",
+              link: "/es6 & beyond/foreword"
+            },
+            {
+              title: "Preface",
+              link: "/es6 & beyond/../preface"
+            },
+            {
+              title: "Chapter 1: ES? Now & Future",
+              link: "/es6 & beyond/ch1"
+            },
+            {
+              title: "Chapter 2: Syntax",
+              link: "/es6 & beyond/ch2"
+            },
+            {
+              title: "Chapter 3: Organization",
+              link: "/es6 & beyond/ch3"
+            },
+            {
+              title: "Chapter 4: Async Flow Control",
+              link: "/es6 & beyond/ch4"
+            },
+            {
+              title: "Chapter 5: Collections",
+              link: "/es6 & beyond/ch5"
+            },
+            {
+              title: "Chapter 6: API Additions",
+              link: "/es6 & beyond/ch6"
+            },
+            {
+              title: "Chapter 7: Meta Programming",
+              link: "/es6 & beyond/ch7"
+            },
+            {
+              title: "Chapter 8: Beyond ES6",
+              link: "/es6 & beyond/ch8"
+            },
+            {
+              title: "Appendix A: Thank You's!",
+              link: "/es6 & beyond/apA"
+            }
+          ]
+        }
+      ]
+    })
+  </script>
+</body>
+</html>
