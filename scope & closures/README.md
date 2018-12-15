@@ -1,6 +1,6 @@
 # You Don't Know JS: Scope & Closures
 
-<img src="cover.jpg" width="300">
+![](cover.jpg)
 
 -----
 
