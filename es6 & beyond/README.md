@@ -1,6 +1,6 @@
 # You Don't Know JS: ES6 & Beyond
 
-<img src="cover.jpg" width="300">
+![](cover.jpg)
 
 -----
 

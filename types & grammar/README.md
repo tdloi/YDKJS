@@ -1,6 +1,6 @@
 # You Don't Know JS: Types & Grammar
 
-<img src="cover.jpg" width="300">
+![](cover.jpg)
 
 -----
 
