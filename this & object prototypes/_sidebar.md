@@ -22,3 +22,10 @@
 
 
 - [**`ES6 & Beyond`**](es6%20&%20beyond/README)
+
+<div class="themes">
+    <span data-theme="vue">vue</span>
+    <span data-theme="dark">dark</span>
+    <span data-theme="buble">buble</span>
+    <span data-theme="pure">pure</span>
+</div>

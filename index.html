@@ -6,7 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="You don't know JavaScript">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <style>
+    .themes {
+      font-family: Inconsolata, sans-serif;
+      margin-top: 2rem;
+      padding: 0 1rem;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .themes span {
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -26,7 +39,6 @@
               var purl = xurl.substring(idx + 1, xurl.length);
               return content.replace(/\[([^\]]*)\]\(([^)]*)\)/g,
                 function(x){
-                  console.log(x);
                   // Avoid image, external link or absolute path
                   if (!x.includes("](/") 
                       && !x.includes("https://") 
@@ -37,7 +49,15 @@
                   return x;
                 }
               )
-            })
+            });
+          hook.doneEach(function() {
+            link = Docsify.dom.find('link');
+            themes = Docsify.dom.find('.themes');
+            themes.onclick = function(e) {
+                let themeTitle = e.target.dataset.theme || "vue";
+                link.href = `//unpkg.com/docsify/lib/themes/${themeTitle}.css`;
+            };
+          })
         }
       ]
     }

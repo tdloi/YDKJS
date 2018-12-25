@@ -23,3 +23,10 @@
     - [Chapter 7: Meta Programming](es6%20&%20beyond/ch7)
     - [Chapter 8: Beyond ES6](es6%20&%20beyond/ch8)
     - [Appendix A: Thank You's!](es6%20&%20beyond/apA)
+
+<div class="themes">
+    <span data-theme="vue">vue</span>
+    <span data-theme="dark">dark</span>
+    <span data-theme="buble">buble</span>
+    <span data-theme="pure">pure</span>
+</div>
